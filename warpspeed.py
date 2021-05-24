@@ -22,7 +22,7 @@ nextButton[0].click()
 '''
 time.sleep(4)
 
-for i in range(1000):
+for i in range(10000):
     stage =  browser.find_element_by_xpath("/html/body/div/div/div/div[1]/div[1]/h1 ").text
     score =  browser.find_element_by_xpath("/html/body/div/div/div/div[1]/div[4]/h1 ").text
     if stage == "RD-01" or stage == "RD-02"  :   
