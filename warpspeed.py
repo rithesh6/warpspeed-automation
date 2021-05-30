@@ -20,7 +20,7 @@ passWordBox.send_keys('IcwU357%')
 nextButton = browser.find_elements_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button')
 nextButton[0].click()
 '''
-time.sleep(4)
+time.sleep(2)
 
 for i in range(10000):
     stage =  browser.find_element_by_xpath("/html/body/div/div/div/div[1]/div[1]/h1 ").text
