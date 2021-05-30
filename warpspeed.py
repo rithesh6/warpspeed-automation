@@ -40,7 +40,6 @@ for i in range(10000):
         python_button.send_keys(word)
         python_button.send_keys(Keys.ENTER)
     else:
-        time.sleep(1)
         word = browser.find_element_by_xpath("/html/body/div/div/div/div[2]/div[1]").get_attribute("id")
         print(word)
         python_button = browser.find_elements_by_xpath("//*[@id='userinputfield']/input")[0]
