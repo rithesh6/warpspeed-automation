@@ -15,7 +15,7 @@ nextButton = browser.find_elements_by_xpath('/html/body/div[1]/div[1]/div[2]/div
 nextButton[0].click()
 
 passWordBox = browser.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')
-passWordBox.send_keys('IcwU357%')
+passWordBox.send_keys('<password>')
 
 nextButton = browser.find_elements_by_xpath('/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button')
 nextButton[0].click()
